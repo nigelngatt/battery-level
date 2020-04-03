@@ -77,6 +77,6 @@ navigator.getBattery().then(function(batt){
 
 var link = document.createElement('link');
 link.setAttribute('rel', 'stylesheet');
-link.setAttribute('href', 'c:/users/nigel/phpserver/rt/eijch.com/styles/style.css');
+link.setAttribute('href', '');
 document.head.appendChild(link);
 document.body.toggleAttribute('class');
